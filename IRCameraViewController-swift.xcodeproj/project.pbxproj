@@ -8,12 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		4A44E402252498C400CE3540 /* IRCameraViewController_swift.h in Headers */ = {isa = PBXBuildFile; fileRef = 4A44E400252498C400CE3540 /* IRCameraViewController_swift.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D11A92052970408B00BEA4BC /* IRCameraNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11A92042970408B00BEA4BC /* IRCameraNavigationController.swift */; };
+		D11A92072970414200BEA4BC /* IRCamera.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11A92062970414200BEA4BC /* IRCamera.swift */; };
+		D11A92092971C30A00BEA4BC /* IRCameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11A92082971C30A00BEA4BC /* IRCameraViewController.swift */; };
+		D11A920C2973029B00BEA4BC /* IRCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D11A920B2973029B00BEA4BC /* IRCameraViewController.xib */; };
+		D11A920E2973048400BEA4BC /* IRTintedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11A920D2973048400BEA4BC /* IRTintedButton.swift */; };
+		D11A92112973050E00BEA4BC /* IRCameraColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11A92102973050E00BEA4BC /* IRCameraColor.swift */; };
+		D11A921329730A3300BEA4BC /* IRCameraSlideUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11A921229730A3300BEA4BC /* IRCameraSlideUpView.swift */; };
+		D11A921529730A4100BEA4BC /* IRCameraSlideDownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11A921429730A4100BEA4BC /* IRCameraSlideDownView.swift */; };
+		D11A921729730A5F00BEA4BC /* IRCameraSlideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D11A921629730A5F00BEA4BC /* IRCameraSlideView.swift */; };
+		D16486DC2BDEA39C00F32510 /* IRCameraGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16486DB2BDEA39C00F32510 /* IRCameraGridView.swift */; };
+		D16486DE2BDFA03E00F32510 /* UIImage+Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16486DD2BDFA03E00F32510 /* UIImage+Bundle.swift */; };
+		D16486E02BDFA06B00F32510 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16486DF2BDFA06B00F32510 /* Utility.swift */; };
+		D16486E22BDFA1F900F32510 /* IRAlbum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16486E12BDFA1F800F32510 /* IRAlbum.swift */; };
+		D16486E42BDFD97D00F32510 /* IRPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16486E32BDFD97D00F32510 /* IRPhotoViewController.swift */; };
+		D16486E62BDFEB7F00F32510 /* IRCameraFilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16486E52BDFEB7F00F32510 /* IRCameraFilterView.swift */; };
+		D16486E82BE1B67900F32510 /* IRAssetsLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16486E72BE1B67900F32510 /* IRAssetsLibrary.swift */; };
+		D16486EA2BE1B76800F32510 /* IRAssetImageFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16486E92BE1B76800F32510 /* IRAssetImageFile.swift */; };
+		D16486EC2BE25CB500F32510 /* UIImage+CameraFilters.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16486EB2BE25CB500F32510 /* UIImage+CameraFilters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4A44E3FD252498C400CE3540 /* IRCameraViewController_swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IRCameraViewController_swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A44E400252498C400CE3540 /* IRCameraViewController_swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRCameraViewController_swift.h; sourceTree = "<group>"; };
 		4A44E401252498C400CE3540 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D11A92042970408B00BEA4BC /* IRCameraNavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRCameraNavigationController.swift; sourceTree = "<group>"; };
+		D11A92062970414200BEA4BC /* IRCamera.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRCamera.swift; sourceTree = "<group>"; };
+		D11A92082971C30A00BEA4BC /* IRCameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRCameraViewController.swift; sourceTree = "<group>"; };
+		D11A920B2973029B00BEA4BC /* IRCameraViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IRCameraViewController.xib; sourceTree = "<group>"; };
+		D11A920D2973048400BEA4BC /* IRTintedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRTintedButton.swift; sourceTree = "<group>"; };
+		D11A92102973050E00BEA4BC /* IRCameraColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRCameraColor.swift; sourceTree = "<group>"; };
+		D11A921229730A3300BEA4BC /* IRCameraSlideUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRCameraSlideUpView.swift; sourceTree = "<group>"; };
+		D11A921429730A4100BEA4BC /* IRCameraSlideDownView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRCameraSlideDownView.swift; sourceTree = "<group>"; };
+		D11A921629730A5F00BEA4BC /* IRCameraSlideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRCameraSlideView.swift; sourceTree = "<group>"; };
+		D16486DB2BDEA39C00F32510 /* IRCameraGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRCameraGridView.swift; sourceTree = "<group>"; };
+		D16486DD2BDFA03E00F32510 /* UIImage+Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Bundle.swift"; sourceTree = "<group>"; };
+		D16486DF2BDFA06B00F32510 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		D16486E12BDFA1F800F32510 /* IRAlbum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRAlbum.swift; sourceTree = "<group>"; };
+		D16486E32BDFD97D00F32510 /* IRPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRPhotoViewController.swift; sourceTree = "<group>"; };
+		D16486E52BDFEB7F00F32510 /* IRCameraFilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRCameraFilterView.swift; sourceTree = "<group>"; };
+		D16486E72BE1B67900F32510 /* IRAssetsLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRAssetsLibrary.swift; sourceTree = "<group>"; };
+		D16486E92BE1B76800F32510 /* IRAssetImageFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IRAssetImageFile.swift; sourceTree = "<group>"; };
+		D16486EB2BE25CB500F32510 /* UIImage+CameraFilters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+CameraFilters.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,10 +82,52 @@
 		4A44E3FF252498C400CE3540 /* IRCameraViewController-swift */ = {
 			isa = PBXGroup;
 			children = (
+				D11A92032970406900BEA4BC /* Class */,
 				4A44E400252498C400CE3540 /* IRCameraViewController_swift.h */,
 				4A44E401252498C400CE3540 /* Info.plist */,
 			);
 			path = "IRCameraViewController-swift";
+			sourceTree = "<group>";
+		};
+		D11A92032970406900BEA4BC /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				D11A920F297304F000BEA4BC /* Helper */,
+				D11A920A2973028900BEA4BC /* View */,
+				D11A92042970408B00BEA4BC /* IRCameraNavigationController.swift */,
+				D11A92082971C30A00BEA4BC /* IRCameraViewController.swift */,
+				D11A92062970414200BEA4BC /* IRCamera.swift */,
+				D16486DB2BDEA39C00F32510 /* IRCameraGridView.swift */,
+				D16486E12BDFA1F800F32510 /* IRAlbum.swift */,
+				D16486E32BDFD97D00F32510 /* IRPhotoViewController.swift */,
+				D16486E52BDFEB7F00F32510 /* IRCameraFilterView.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
+		D11A920A2973028900BEA4BC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D11A920B2973029B00BEA4BC /* IRCameraViewController.xib */,
+				D11A920D2973048400BEA4BC /* IRTintedButton.swift */,
+				D11A921229730A3300BEA4BC /* IRCameraSlideUpView.swift */,
+				D11A921429730A4100BEA4BC /* IRCameraSlideDownView.swift */,
+				D11A921629730A5F00BEA4BC /* IRCameraSlideView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D11A920F297304F000BEA4BC /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				D16486E72BE1B67900F32510 /* IRAssetsLibrary.swift */,
+				D11A92102973050E00BEA4BC /* IRCameraColor.swift */,
+				D16486DD2BDFA03E00F32510 /* UIImage+Bundle.swift */,
+				D16486DF2BDFA06B00F32510 /* Utility.swift */,
+				D16486E92BE1B76800F32510 /* IRAssetImageFile.swift */,
+				D16486EB2BE25CB500F32510 /* UIImage+CameraFilters.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -95,6 +173,7 @@
 				TargetAttributes = {
 					4A44E3FC252498C400CE3540 = {
 						CreatedOnToolsVersion = 11.6;
+						LastSwiftMigration = 1420;
 					};
 				};
 			};
@@ -121,6 +200,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D11A920C2973029B00BEA4BC /* IRCameraViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,6 +211,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D16486E62BDFEB7F00F32510 /* IRCameraFilterView.swift in Sources */,
+				D11A92052970408B00BEA4BC /* IRCameraNavigationController.swift in Sources */,
+				D11A921329730A3300BEA4BC /* IRCameraSlideUpView.swift in Sources */,
+				D16486EC2BE25CB500F32510 /* UIImage+CameraFilters.swift in Sources */,
+				D11A921729730A5F00BEA4BC /* IRCameraSlideView.swift in Sources */,
+				D16486E42BDFD97D00F32510 /* IRPhotoViewController.swift in Sources */,
+				D16486E02BDFA06B00F32510 /* Utility.swift in Sources */,
+				D16486E22BDFA1F900F32510 /* IRAlbum.swift in Sources */,
+				D16486E82BE1B67900F32510 /* IRAssetsLibrary.swift in Sources */,
+				D16486DE2BDFA03E00F32510 /* UIImage+Bundle.swift in Sources */,
+				D11A92072970414200BEA4BC /* IRCamera.swift in Sources */,
+				D11A920E2973048400BEA4BC /* IRTintedButton.swift in Sources */,
+				D16486DC2BDEA39C00F32510 /* IRCameraGridView.swift in Sources */,
+				D11A92112973050E00BEA4BC /* IRCameraColor.swift in Sources */,
+				D11A92092971C30A00BEA4BC /* IRCameraViewController.swift in Sources */,
+				D11A921529730A4100BEA4BC /* IRCameraSlideDownView.swift in Sources */,
+				D16486EA2BE1B76800F32510 /* IRAssetImageFile.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +357,7 @@
 		4A44E406252498C400CE3540 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -275,6 +373,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "irons163.IRCameraViewController-swift";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -283,6 +382,7 @@
 		4A44E407252498C400CE3540 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
